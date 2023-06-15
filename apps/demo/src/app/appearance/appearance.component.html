@@ -11,36 +11,6 @@
 </p>
 
 <form [formGroup]="formDoc" novalidate>
-
-  <h3>Legacy (default)</h3>
-
-  <app-code-sample [code]="legacyNoLabel"></app-code-sample>
-
-  <mat-form-field appearance="legacy">
-    <ngx-mat-file-input formControlName="legacy" placeholder="Basic legacy placeholder"></ngx-mat-file-input>
-    <mat-icon matSuffix>folder</mat-icon>
-  </mat-form-field>
-
-  <h3>Legacy (default) with mat-label</h3>
-
-  <app-code-sample [code]="legacy"></app-code-sample>
-
-  <mat-form-field appearance="legacy">
-    <mat-label>Basic legacy input</mat-label>
-    <ngx-mat-file-input formControlName="legacy" placeholder="Basic legacy placeholder"></ngx-mat-file-input>
-    <mat-icon matSuffix>folder</mat-icon>
-  </mat-form-field>
-
-  <h3>Standard</h3>
-
-  <app-code-sample [code]="standard"></app-code-sample>
-
-  <mat-form-field appearance="standard">
-    <mat-label>Basic standard input</mat-label>
-    <ngx-mat-file-input formControlName="standard" placeholder="Basic standard placeholder"></ngx-mat-file-input>
-    <mat-icon matSuffix>folder</mat-icon>
-  </mat-form-field>
-
   <h3>Fill</h3>
 
   <app-code-sample [code]="fill"></app-code-sample>

@@ -1,6 +1,6 @@
 {
-  "name": "material-file-input",
-  "version": "4.0.0",
+  "name": "@franbueno/ngx-material-file-input",
+  "version": "5.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
