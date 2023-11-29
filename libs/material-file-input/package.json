@@ -1,6 +1,6 @@
 {
   "name": "@franbueno/ngx-material-file-input",
-  "version": "5.0.1",
+  "version": "7.0.0",
   "license": "MIT",
   "author": {
     "name": "Jeremy Legros"
@@ -17,10 +17,10 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@angular/cdk": "^15.0.0",
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "@angular/material": "^15.0.0"
+    "@angular/cdk": "^16.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/material": "^16.0.0"
   },
   "ngPackage": {
     "lib": {
